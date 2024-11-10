@@ -1,3 +1,8 @@
+"""
+author: Gary Louis Stewart, gary-stewart@outlook.com
+date: 10/11/2024
+"""
+
 block_type_paragraph = "paragraph"
 block_type_heading = "heading"
 block_type_code = "code"

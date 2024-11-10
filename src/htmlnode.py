@@ -1,3 +1,9 @@
+"""
+author: Gary Louis Stewart, gary-stewart@outlook.com
+date: 10/11/2024
+"""
+
+
 class HTMLNode:
     def __init__(self, tag=None, value=None, children=None, props=None):
         self.tag = tag

@@ -1,3 +1,8 @@
+"""
+author: Gary Louis Stewart, gary-stewart@outlook.com
+date: 10/11/2024
+"""
+
 import markdown_to_blocks
 from htmlnode import ParentNode
 from textnode import text_node_to_html_node

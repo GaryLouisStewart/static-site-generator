@@ -1,3 +1,9 @@
+"""
+author: Gary Louis Stewart, gary-stewart@outlook.com
+date: 10/11/2024
+"""
+
+
 from markdown_block_to_block import (
     block_to_block_type
 )

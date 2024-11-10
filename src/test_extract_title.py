@@ -1,3 +1,8 @@
+"""
+author: Gary Louis Stewart, gary-stewart@outlook.com
+date: 10/11/2024
+"""
+
 from extract_title import extract_title
 import unittest
 
