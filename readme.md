@@ -9,7 +9,7 @@
 - python3
 - docker/podman (optional)
 
-# running using python.
+## running using python.
 Running this with python.
 
 ```bash
@@ -18,7 +18,7 @@ cd public && python3 -m http.server 8888
 ```
 
 
-# running the test suite
+## running the test suite
 
 ```bash
 python3 -m unittest discover -s src -vvv
@@ -26,4 +26,17 @@ python3 -m unittest discover -s src -vvv
 # or you can use the ./test.sh script which uses the same command wrapped in a bash script..
 
 ./test.sh
+```
+
+## run using docker or podman
+
+```bash
+docker build -t static-site-generator .
+docker run -p 8888:8888 static-site-generator
+
+
+# or using podman
+
+podman build -t static-site-generator . 
+podman run -p 8888:8888 static-site-generator
 ```
